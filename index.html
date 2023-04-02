@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="Action w">
+      <h1 class="StartFont">录制</h1>
+      <video
+        controls
+        autoplay
+        id="VideoRecording"
+        width="600"
+        height="400
+      "
+      ></video>
+      <div class="btn">
+        <button type="button" id="Start" class="layui-btn">开始</button>
+        <button type="button" id="Pause" class="layui-btn layui-btn-normal">
+          暂停
+        </button>
+        <button type="button" id="Resume" class="layui-btn layui-btn-warm">
+          继续
+        </button>
+        <button type="button" id="Stop" class="layui-btn layui-btn-danger">
+          结束
+        </button>
+      </div>
+    </div>
+    <!-- 预览 -->
+    <div class="Preview w">
+      <h1 class="StartFont">预览</h1>
+      <video controls autoplay id="VideoPreview" width="600" height="400 " />
+    </div>
+  <script defer src="./js/main.js"></script></body>
+</html>
